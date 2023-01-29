@@ -1,0 +1,71 @@
+.card__clima {
+    position: relative;
+    z-index: 2000;
+    text-transform: capitalize;
+    color: rgb(227, 225, 225);
+}
+
+.card__clima {
+    background: rgba(22, 22, 22, 0.8);
+    padding: 2rem;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.content__box {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin: 2rem 0;
+}
+
+.left {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.box__info {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.box__info i {
+    color: #FED049;
+}
+
+.box__info span {
+    font-weight: bold;
+}
+
+.temp {
+    display: grid;
+    text-align: center;
+    gap: .5rem;
+}
+
+.temp h3 {
+    font-size: 2rem;
+}
+
+.temp button {
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background: #d8b23e;
+    color: rgb(227, 225, 225);
+    cursor: pointer;
+
+    transition: background .3s, color .3s;
+}
+
+.temp button:hover {
+    background: rgb(227, 225, 225);
+    color: #d8b23e;
+}
