@@ -7,10 +7,10 @@
     align-items: center;
 }
 
-.App h1 {
+.App>h1 {
     position: relative;
     z-index: 2000;
-    color: rgb(227, 225, 225);
+    color: rgba(22, 22, 22, 0.8);
 }
 
 video {
